@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url('./bg-full.jpg');
+  height: 100vh;
+  font-family: '微軟正黑體', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  border: 1px solid white;
+}
+.title {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.text {
+  width: 300px;
+}
+
+.start {
+  width: 520px;
+  padding: 0 100px;
+  height: 880px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('./main.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.start-text {
+  text-align: center;
+}
+.start-img {
+  width: 40%;
+}
+
+.end {
+  width: 720px;
+}
+.top,
+.bottom {
+  height: 440px;
+}
+.top {
+  background: url('./cloud.png') no-repeat right center / contain, #aaa;
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottom {
+  color: white;
+  background: url('./tifa.png') no-repeat left center / contain, black;
+  padding-right: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
